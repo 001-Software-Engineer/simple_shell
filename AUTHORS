@@ -1,0 +1,8 @@
+# This file lists all individuals having contributed content to the repository.
+#You can use the following Bash command to extract and list the authors:
+
+grep -E '^\- \[' README.md | awk -F '](https://github.com/' '{print $1}' | awk -F '[[' '{print $2}'
+
+
+Livingstone Bugali <Livingstonebarasa05@gmail.com>
+Mashau Ednah <mashauednah@gmail.com>
