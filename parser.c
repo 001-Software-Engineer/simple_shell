@@ -1,6 +1,4 @@
 #include "shell.h"
-#include <stddef.h>
-
 
 /**
  * is_cmd - determines if a file is an executable command
@@ -9,7 +7,6 @@
  *
  * Return: 1 if true, 0 otherwise
  */
-
 int is_cmd(info_t *info, char *path)
 {
 	struct stat st;
@@ -87,4 +84,3 @@ char *find_path(info_t *info, char *pathstr, char *cmd)
 	}
 	return (NULL);
 }
-

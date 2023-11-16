@@ -1,5 +1,3 @@
-lists_1.c
-
 #include "shell.h"
 
 /**
@@ -8,7 +6,6 @@ lists_1.c
  *
  * Return: size of list
  */
-
 size_t list_len(const list_t *h)
 {
 	size_t i = 0;
@@ -123,4 +120,3 @@ ssize_t get_node_index(list_t *head, list_t *node)
 	}
 	return (-1);
 }
-

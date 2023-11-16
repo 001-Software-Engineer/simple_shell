@@ -1,5 +1,3 @@
-memory.c
-
 #include "shell.h"
 
 /**
@@ -19,4 +17,3 @@ int bfree(void **ptr)
 	}
 	return (0);
 }
-

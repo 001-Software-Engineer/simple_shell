@@ -1,5 +1,3 @@
-list.c
-
 #include "shell.h"
 
 /**
@@ -10,7 +8,6 @@ list.c
  *
  * Return: size of list
  */
-
 list_t *add_node(list_t **head, const char *str, int num)
 {
 	list_t *new_head;
@@ -160,4 +157,3 @@ void free_list(list_t **head_ptr)
 	}
 	*head_ptr = NULL;
 }
-

@@ -1,5 +1,3 @@
-string_1.c
-
 #include "shell.h"
 
 /**
@@ -9,7 +7,6 @@ string_1.c
  *
  * Return: pointer to destination
  */
-
 char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
@@ -88,4 +85,3 @@ int _putchar(char c)
 		buf[i++] = c;
 	return (1);
 }
-
